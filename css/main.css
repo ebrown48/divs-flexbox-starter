@@ -111,6 +111,16 @@ body {
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  background-color: red;
+}
+
+h1 {
+    font-size: 14px;
+    color: black;
+}
+
+p {
+    font-size: 12px;
 }
 
 .flex-items {
@@ -123,7 +133,12 @@ body {
   width: 30%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
+  border-style: solid;
+  border-width: 3px;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  border-color: gray;
 }
 
 
